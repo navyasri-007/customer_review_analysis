@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+env/
+
+.streamlit/
+
+.vscode/
+data/amazonreviews/test.ft.txt
+data/amazonreviews/train.ft.txt
+
+
+# Python cache
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+data/amazonreviews/

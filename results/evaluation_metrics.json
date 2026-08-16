@@ -1,0 +1,41 @@
+{
+    "model_evaluated": "Pretrained Transformer (distilbert/distilbert-base-uncased-finetuned-sst-2-english)",
+    "sample_size": 200,
+    "accuracy": 88.5,
+    "precision": 91.4,
+    "recall": 85.0,
+    "f1_score": 88.08,
+    "confusion_matrix": {
+        "true_negative": 92,
+        "false_positive": 8,
+        "false_negative": 15,
+        "true_positive": 85
+    },
+    "classification_report": {
+        "Negative": {
+            "precision": 0.8598130841121495,
+            "recall": 0.92,
+            "f1-score": 0.8888888888888888,
+            "support": 100.0
+        },
+        "Positive": {
+            "precision": 0.9139784946236559,
+            "recall": 0.85,
+            "f1-score": 0.8808290155440415,
+            "support": 100.0
+        },
+        "accuracy": 0.885,
+        "macro avg": {
+            "precision": 0.8868957893679027,
+            "recall": 0.885,
+            "f1-score": 0.8848589522164652,
+            "support": 200.0
+        },
+        "weighted avg": {
+            "precision": 0.8868957893679027,
+            "recall": 0.885,
+            "f1-score": 0.8848589522164652,
+            "support": 200.0
+        }
+    }
+}
